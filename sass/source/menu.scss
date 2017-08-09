@@ -1,0 +1,44 @@
+$font-family: Arial;
+$mobile-width: 768px;
+
+.container {
+	padding: 1vw;
+}
+
+.top-menu {
+	&__header:after {
+		content: '+';
+		font-size: 4vw;
+		font-weight: bold;
+		color: blue;
+	}
+
+  &__menu {
+
+    padding: 0;
+    display: none;
+    &__item {
+      list-style-type: none;
+    }
+
+  }
+}
+
+@media(min-width: $mobile-width) {
+  .top-menu {
+
+    &__header:after {
+      content: '';
+      display: none;
+    }
+
+    &__menu {
+      display: block;
+
+      &__item {
+        float: left;
+        padding: 0 0.3vw 0 0.3vw;
+      }
+    }
+  }
+}

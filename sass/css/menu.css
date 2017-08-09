@@ -1,0 +1,25 @@
+.container {
+  padding: 1vw; }
+
+.top-menu__header:after {
+  content: '+';
+  font-size: 4vw;
+  font-weight: bold;
+  color: blue; }
+.top-menu__menu {
+  padding: 0;
+  display: none; }
+  .top-menu__menu__item {
+    list-style-type: none; }
+
+@media (min-width: 768px) {
+  .top-menu__header:after {
+    content: '';
+    display: none; }
+  .top-menu__menu {
+    display: block; }
+    .top-menu__menu__item {
+      float: left;
+      padding: 0 0.3vw 0 0.3vw; } }
+
+/*# sourceMappingURL=menu.css.map */

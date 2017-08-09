@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,eAAgB;EAGf,KAAK,EAAE,IAAI",
+"sources": ["highlight-menu.scss"],
+"names": [],
+"file": "highlight-menu.css"
+}

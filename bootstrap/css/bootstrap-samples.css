@@ -51,16 +51,12 @@ body {
   }
 
   .highlight-menu-items li {
-    float: left;
     list-style-type: none;
     padding: 10px
   }
 
   .highlight-menu-highlight {
     background-color: #cccccc;
-    position: absolute;
-    top: 30px;
-    left: 0;
     width: 100%
   }
 
